@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <h2 id="h2">hello</h2>
+
+
+    <!-- 08 -->
+    <!-- <form action="" method="get">
+
+        width: <span></span><input type="number" name="" id="width"><br>
+        height: <input type="number" id="height"><br>
+        <input type="button"  onclick="area()" value="Get area"> 
+        <input type="text" name="result" id="result" placeholder="output:" disabled>
+    </form> -->
+
+<!-- 11
+<p>h1</p>
+<p>h2</p>
+<p>h3</p> -->
+
+<!-- 16
+<p id="p1">
+   <a href="#" id="a"> Hello This is DOM (Document Object Model)</a>   
+</p>
+
+<p id="h2">
+    H2 Value
+</p> -->
+
+
+<!-- 17
+<p id="pTag">hyyyy</p> -->
+
+
+<!-- 18
+<div >
+    <img  id="image" src="img/headphone.jpg" alt="headphone img">
+</div> -->
+
+
+<div id="container">
+Computer Languages: <br>
+<datalist id="language"> </datalist>
+<input type="text" list="language">
+<br><br>
+
+Degree: <br>
+<datalist id="Degree"> </datalist>
+<input type="text" list="Degree">
+<br><br>
+
+</div>
+
+
+
+<script type="text/javascript" src="scripts/script.js"></script>
+<script>
+    $(document).ready(function(){
+        $("input").on("mouseover", function(){
+            var a = $(this).attr('name');
+            poppulate(a);
+        });
+    });
+</script>
+
+
+</body>
+
+</html>
